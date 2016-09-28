@@ -125,10 +125,10 @@ int bemEncaixado (char* s) {
     int resultado = 1;
     for(i = 0; s[i] != '\0'; i++) {
         if(s[i] == '(') {
-            if(p->t->item >= MAX) {
+          /*  if(p->t->item >= MAX) {
                 resultado = 0;
                 break;
-            }
+            }*/
             push(p, 1);
         } else if (s[i] == ')') {
             if(p->t->item <= 0) {
