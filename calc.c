@@ -184,6 +184,11 @@ int calcula ( char * s ) {
     return resultado;
 }
 
+//  Resposta questão 2: o resultado para o calculo e 21;
+
+//  Resposta questão 3: O resultado e que o progama para de executar apresentando erro.
+
+
 
 
 /* Exemplo de utilização */
